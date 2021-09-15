@@ -1,0 +1,9 @@
+11/08/2021 17:16 System.Exception: No se puede insertar una liquidacion con ninguna factura
+   en CheckIn.API.Controllers.CierreController.Post(CierreViewModel gastos) en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\CierreController.cs:línea 413
+------------------------------------------
+11/08/2021 17:17 System.Exception: No se puede insertar una liquidacion con ninguna factura
+   en CheckIn.API.Controllers.CierreController.Post(CierreViewModel gastos) en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\CierreController.cs:línea 413
+------------------------------------------
+11/08/2021 17:18 System.Exception: No se puede insertar una liquidacion con ninguna factura
+   en CheckIn.API.Controllers.CierreController.Post(CierreViewModel gastos) en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\CierreController.cs:línea 413
+------------------------------------------

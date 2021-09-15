@@ -1,0 +1,34 @@
+12/07/2021 11:42 No se pudo recuperar el generador de clases COM para el componente con CLSID {632F4591-AA62-4219-8FB6-22BCF5F60100} debido al siguiente error: 80040154 Clase no registrada (Excepción de HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+------------------------------------------
+25/07/2021 10:04 System.Runtime.InteropServices.COMException (0x80040154): No se pudo recuperar el generador de clases COM para el componente con CLSID {632F4591-AA62-4219-8FB6-22BCF5F60100} debido al siguiente error: 80040154 Clase no registrada (Excepción de HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   en System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   en System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en CheckIn.API.Controllers.Conexion.DoSapConnection() en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\Conexion.cs:línea 47
+------------------------------------------
+25/07/2021 10:04 System.Runtime.InteropServices.COMException (0x80040154): No se pudo recuperar el generador de clases COM para el componente con CLSID {632F4591-AA62-4219-8FB6-22BCF5F60100} debido al siguiente error: 80040154 Clase no registrada (Excepción de HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   en System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   en System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en CheckIn.API.Controllers.Conexion.DoSapConnection() en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\Conexion.cs:línea 47
+------------------------------------------
+25/07/2021 10:08 System.Runtime.InteropServices.COMException (0x80040154): No se pudo recuperar el generador de clases COM para el componente con CLSID {632F4591-AA62-4219-8FB6-22BCF5F60100} debido al siguiente error: 80040154 Clase no registrada (Excepción de HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   en System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   en System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en CheckIn.API.Controllers.Conexion.DoSapConnection() en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\Conexion.cs:línea 47
+------------------------------------------
+25/07/2021 10:08 System.Runtime.InteropServices.COMException (0x80040154): No se pudo recuperar el generador de clases COM para el componente con CLSID {632F4591-AA62-4219-8FB6-22BCF5F60100} debido al siguiente error: 80040154 Clase no registrada (Excepción de HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   en System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   en System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   en System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   en System.Activator.CreateInstance(Type type)
+   en CheckIn.API.Controllers.Conexion.DoSapConnection() en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\Conexion.cs:línea 47
+------------------------------------------

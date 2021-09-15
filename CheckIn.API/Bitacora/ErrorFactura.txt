@@ -1,0 +1,6 @@
+01/07/2021 10:51 System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1140
+------------------------------------------
+04/08/2021 09:30 System.Exception: Esta factura YA existe
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1272
+------------------------------------------

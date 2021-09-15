@@ -1,0 +1,2 @@
+01/09/2021 13:56 Usuario no existe =>    en CheckIn.API.Controllers.LoginController.Put(LoginViewModel usuario) en D:\GIT\GestionGastosDyD\GestionGastosWA\CheckIn.API\Controllers\LoginController.cs:línea 351
+------------------------------------------

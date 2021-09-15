@@ -1,0 +1,19 @@
+04/05/2021 12:15 System.FormatException: La entrada no es una cadena Base 64 válida porque contiene un carácter que no es Base 64, más de dos caracteres de relleno o un carácter no válido entre los caracteres de relleno. 
+   en System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   en System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   en System.Convert.FromBase64String(String s)
+   en CheckIn.API.Controllers.ComprasController.GuardaImagenBase64(String ImagenBase64, String CarpetaImagen, String NomImagen, ImageFormat FormatoImagen) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 44
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1021
+------------------------------------------
+04/05/2021 15:48 System.Exception: Esta factura YA existe
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1068
+------------------------------------------
+04/05/2021 15:49 System.Exception: Esta factura YA existe
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1068
+------------------------------------------
+04/05/2021 15:49 System.Exception: Esta factura YA existe
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1068
+------------------------------------------
+04/05/2021 15:49 System.Exception: Esta factura YA existe
+   en CheckIn.API.Controllers.ComprasController.Post(ComprasViewModel compra) en D:\GIT\GestionGastosWA\CheckIn.API\Controllers\ComprasController.cs:línea 1068
+------------------------------------------
