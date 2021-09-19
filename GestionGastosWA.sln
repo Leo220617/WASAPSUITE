@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1500
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionGastosWA", "CheckIn.API\GestionGastosWA.csproj", "{4CDD6ABF-94DB-4CC2-87DA-D76D0D326864}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASAPSUITE", "CheckIn.API\WASAPSUITE.csproj", "{4CDD6ABF-94DB-4CC2-87DA-D76D0D326864}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendGridEmail", "SendGridEmail\SendGridEmail.csproj", "{01203794-ED38-4EE6-BA30-7B784803FE6E}"
 EndProject

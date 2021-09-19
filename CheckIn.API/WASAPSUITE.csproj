@@ -276,27 +276,17 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\AsientosController.cs" />
-    <Compile Include="Controllers\BitacoraErroresController.cs" />
-    <Compile Include="Controllers\CierreController.cs" />
-    <Compile Include="Controllers\ComprasController.cs" />
     <Compile Include="Controllers\Conexion.cs" />
-    <Compile Include="Controllers\CuentasContablesController.cs" />
-    <Compile Include="Controllers\DimensionesController.cs" />
     <Compile Include="Controllers\G.cs" />
-    <Compile Include="Controllers\GastosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\NormasRepartoController.cs" />
     <Compile Include="Controllers\ParametrosController.cs" />
-    <Compile Include="Controllers\ReportesController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\SeguridadModulosController.cs" />
     <Compile Include="Controllers\SeguridadRolesModulosController.cs" />
     <Compile Include="Controllers\TokenGenerator.cs" />
     <Compile Include="Controllers\TokenValidationHandler.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="Controllers\VCierreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -306,14 +296,8 @@
     <Compile Include="Helpers\UsersHelper.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AsignacionViewModel.cs" />
-    <Compile Include="Models\CierreViewModel.cs" />
-    <Compile Include="Models\ComprasViewModel.cs" />
-    <Compile Include="Models\DetCierreViewModel.cs" />
     <Compile Include="Models\Filtros.cs" />
-    <Compile Include="Models\HeaderReportViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\InfoLiquid.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\ModelCliente\BandejaEntrada.cs" />
     <Compile Include="Models\ModelCliente\BitacoraErrores.cs" />
