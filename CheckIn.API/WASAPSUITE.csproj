@@ -276,7 +276,6 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\BitacoraErroresController.cs" />
     <Compile Include="Controllers\Conexion.cs" />
     <Compile Include="Controllers\G.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -298,8 +297,27 @@
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Filtros.cs" />
-    <Compile Include="Models\HeaderReportViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\ModelCliente\BandejaEntrada.cs" />
+    <Compile Include="Models\ModelCliente\BitacoraErrores.cs" />
+    <Compile Include="Models\ModelCliente\ConexionSAP.cs" />
+    <Compile Include="Models\ModelCliente\CorreosRecepcion.cs" />
+    <Compile Include="Models\ModelCliente\CuentasContables.cs" />
+    <Compile Include="Models\ModelCliente\DetCierre.cs" />
+    <Compile Include="Models\ModelCliente\DetCompras.cs" />
+    <Compile Include="Models\ModelCliente\Dimensiones.cs" />
+    <Compile Include="Models\ModelCliente\EncCierre.cs" />
+    <Compile Include="Models\ModelCliente\EncCompras.cs" />
+    <Compile Include="Models\ModelCliente\EncComprasViewModel.cs" />
+    <Compile Include="Models\ModelCliente\Gastos.cs" />
+    <Compile Include="Models\ModelCliente\Login.cs" />
+    <Compile Include="Models\ModelCliente\ModelCliente.cs" />
+    <Compile Include="Models\ModelCliente\NormasReparto.cs" />
+    <Compile Include="Models\ModelCliente\Parametros.cs" />
+    <Compile Include="Models\ModelCliente\Roles.cs" />
+    <Compile Include="Models\ModelCliente\SeguridadModulos.cs" />
+    <Compile Include="Models\ModelCliente\SeguridadRolesModulos.cs" />
     <Compile Include="Models\ModelMain\LicEmpresas.cs" />
     <Compile Include="Models\ModelMain\LicUsuarios.cs" />
     <Compile Include="Models\ModelMain\ModelLicencias.cs" />
@@ -377,7 +395,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\Images\" />
     <Folder Include="Imagenes\" />
-    <Folder Include="Models\ModelCliente\" />
     <Folder Include="Temp\402400315\" />
   </ItemGroup>
   <ItemGroup>
