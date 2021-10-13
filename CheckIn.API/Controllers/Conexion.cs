@@ -58,8 +58,7 @@ namespace CheckIn.API.Controllers
                 var resp = _company.Connect();
 
 
-                G.GuardarTxt("BitacoraConexion.txt", _company.DbServerType + _company.LicenseServer + _company.CompanyDB + _company.UserName);
-
+                
                 if (resp != 0)
                 {
                     var msg = _company.GetLastErrorDescription();
@@ -77,7 +76,7 @@ namespace CheckIn.API.Controllers
                 error.Fecha = DateTime.Now;
                 db.BitacoraErrores.Add(error);
                 db.SaveChanges();
-                G.GuardarTxt("ErrorConexionSAP.txt", ex.ToString());
+                  
                 G.CerrarConexionAPP(db);
                 return -1;
             }
